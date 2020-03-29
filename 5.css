@@ -1,0 +1,46 @@
+h1,h2,h3,span{
+    color: rgb(151, 21, 101);
+    font-family : "Century Gothic";
+
+}
+body {
+background-color : #FFE4B5;
+background-image:url(topoboi.com-38647.jpg), url(tekstura-uzor-svetlyy-fon.jpg);
+background-size: 100% 200px, 100% 100%;
+background-repeat: no-repeat;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color:orange ;
+}
+a:hover{
+    color: black;
+    transition: 5s;
+}
+h2:first-child{
+    color:black
+}
+p:first-letter{
+    border: 1px solid red; font-size: x-large;
+}
+
+.sixteen::before{
+    content:'cтудент 1 курса, '
+} 
+.sixteen::after{
+    content:'проживающий по адресу : Белорусская 21, '
+}
+
+p:first-line{
+    text-decoration: underline;text-decoration-color: orange;
+}
+@font-face{
+    font-family: "Courier Prime";
+    src:url(CourierPrime-Italic.ttf);
+}
+@font-face{
+    font-family: "Raleway";
+    src:url(Raleway-Italic.ttf);
+}

@@ -1,0 +1,61 @@
+body{
+    background:url(donut_PNG98.png ) no-repeat top right     ;
+background-size: 30%;-o-background: radial-gradient(#FF6347,#000000);
+background: radial-gradient(#FF6347,#000000);
+
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color:orange ;
+}
+a:hover{
+    color: black;
+}
+#gun{
+    -o-transform: translateY(-50px) scale(1,1) translateX(100px) ;
+    transform: translateY(-50px)  scale(1,1)  skewX(-25deg) translateX(100px);
+    transition: all 1s;
+    position: absolute;
+}
+#gun:hover{
+    -o-transform:translateX(300px) translateY(-200px);
+    transform:translateX(300px) translateY(-200px);
+    
+    
+
+}
+#picture{
+    
+    -o-transform: translateY(-100px) translateX(0px);
+    transform: translateY(-100px) translateX(870px);
+    border:2px solid black ; height: 150px; width: 150px;
+    padding: 10px;
+-o-border-image: url(crosscircle.png) round 30 30  ;
+border-image: url(crosscircle.png)  round 30 30  ;
+border-image-width: 15px;
+border-image-repeat: none;
+}
+#container{
+   list-style: none;
+   padding: 0px;
+   margin:30px;
+}
+#container li a{
+    display: block;
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    background: #bbb;
+    margin: 1px;
+    color:white;
+    padding-left:15px;
+    cursor: pointer;
+}
+#container li a:first-child{
+    font-size: 1.1em;
+    height:50px;
+    line-height: 50px;
+    position: relative;
+}
