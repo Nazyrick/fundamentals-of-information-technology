@@ -1,0 +1,13 @@
+body{
+    background:url(donut_PNG98.png ) no-repeat top right    tomato ;
+background-size: 30%;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color:orange ;
+}
+a:hover{
+    color: black;
+}
